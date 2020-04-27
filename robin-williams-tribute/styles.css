@@ -25,6 +25,7 @@ body {
   /* max-width: 100%;
   max-height: auto; */
   width: 100%;
+  max-width: 100%;
 
   /* top: 0;
   left: 0;
@@ -37,7 +38,9 @@ body {
   height: 1500px;
   padding-top: 400px;
   color: white;
+  top: 100px;
   padding-left: 150px;
+  position: relative;
   text-align: center;
 }
 
@@ -74,24 +77,23 @@ body {
 }
 
 .quote-pic-left {
-  background: white;
+  /* background: white; */
   height: auto;
   display: flex;
   justify-content: flex-end;
   background: transparent;
-
+  max-width: 100%;
   width: 100%;
 }
 
 .quote-pic-right {
-  background: white;
-  width: auto;
+  /* background: white; */
+  max-width: 100%;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: flex-start;
   background: transparent;
-  margin-left: auto;
-  margin-right: 0;
 }
 
 h2.quote {
@@ -126,23 +128,43 @@ h2.quote {
 }
 
 .smile-pic img {
-  width: 100%;
-  /* position: relative; */
+  width: 1200px;
   /* bottom: 0; */
+  margin: auto;
   display: flex;
   height: auto;
+  /* bottom: 25px; */
+  /* padding-bottom: 30px; */
+  border-radius: 5%;
+
   /* padding-top: 40px; */
 }
 
-.what-dreams-quote {
-  /* left: 50%; */
+.smile-pic {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  bottom: 35px;
+}
+
+/* .what-dreams-quote {
+  left: 50%;
   text-align: left;
   position: relative;
-  bottom: 600px;
+  bottom: 100px;
   right: 150px;
-  width: 30%;
+  width: 300px;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 24px;
   float: right;
   color: white;
+} */
+
+.what-dreams-quote {
+  position: absolute;
+  bottom: 150px;
+  right: 500px;
+  font-size: 24px;
+  width: 350px;
 }
