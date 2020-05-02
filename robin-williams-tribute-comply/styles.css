@@ -48,8 +48,8 @@ body {
 }
 
 .image.image1 {
-  width: 500px;
-  height: 500px;
+  width: 525px;
+  height: 525px;
   float: left;
   border-radius: 50%;
   margin: 20px;
@@ -86,7 +86,7 @@ body {
 }
 
 #tribute-info {
-  background-color: rgb(0, 0, 0, 0.8);
+  background-color: rgb(0, 0, 0, 0.7);
 }
 
 .container {
