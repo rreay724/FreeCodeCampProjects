@@ -11,7 +11,7 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
 
-  background-image: url("/images/robin-williams-quotes-madness-1024x536.jpg");
+  background-image: url("https://i.imgur.com/uj8DIiz.jpg");
   background-attachment: fixed;
   background-position: center 0;
   background-repeat: no-repeat;
@@ -47,15 +47,6 @@ body {
   overflow: hidden;
 }
 
-.image.image1 {
-  width: 525px;
-  height: 525px;
-  float: left;
-  border-radius: 50%;
-  margin: 20px;
-  shape-outside: circle();
-}
-
 .image img {
   position: absolute;
   top: 0;
@@ -65,12 +56,39 @@ body {
   object-fit: cover;
 }
 
+.image.image1 {
+  width: 525px;
+  height: 525px;
+  float: left;
+  border-radius: 50%;
+  margin: 20px 30px;
+  shape-outside: circle();
+}
+
 .image.image2 {
   width: 450px;
   height: 450px;
   float: right;
   border-radius: 50%;
-  margin: 20px;
+  margin: 20px 30px;
+  shape-outside: circle();
+}
+
+.image.image3 {
+  width: 450px;
+  height: 450px;
+  float: left;
+  border-radius: 50%;
+  margin: 20px 30px;
+  shape-outside: circle();
+}
+
+.image.image4 {
+  width: 525px;
+  height: 525px;
+  float: right;
+  border-radius: 50%;
+  margin: 20px 30px;
   shape-outside: circle();
 }
 
@@ -99,6 +117,10 @@ body {
   /* bottom: 0; */
 }
 
+.biography-text {
+  padding: 0px 30px;
+}
+
 #robin {
   font-weight: bold;
   font-size: 3vw;
@@ -115,6 +137,6 @@ body {
 }
 
 #tribute-link {
-  color: blue;
+  color: rgb(77, 77, 255);
   text-decoration: none;
 }
