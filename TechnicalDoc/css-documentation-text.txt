@@ -1,0 +1,162 @@
+Introduction
+What is CSS?
+CSS stands for Cascading Style Sheets.
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
+CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+External stylesheets are stored in CSS files.
+Why use CSS?
+CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+
+Syntax
+Each declaration includes a CSS property name and a value, separated by a colon.
+
+The declaration block contains one or more declarations separated by semicolons.
+
+A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.
+
+In the following example all p elements will be center-aligned, with a red text color:
+
+p {
+text-align: center;
+color: red;
+}
+Borders
+The border-style property specifies what kind of border to display.
+
+The following values are allowed:
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+Margin
+The CSS margin properties are used to create space around elements, outside of any defined borders.
+
+With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+
+Margin properties:-
+CSS has properties for specifying the margin for each side of an element:
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+p {
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;
+}
+Padding
+The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).
+
+Padding properties:-
+CSS has properties for specifying the padding for each side of an element:
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+div {
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;
+}
+Max-width
+Using width, max-width and margin: auto;
+As mentioned in the previous chapter; a block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+Setting the width of a block-level element will prevent it from stretching out to the edges of its container. Then, you can set the margins to auto, to horizontally center the element within its container. The element will take up the specified width, and the remaining space will be split equally between the two margins.
+
+Inline-block
+The display: inline-block Value
+Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+
+Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+
+Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+
+Position
+The position properties
+he position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+div.static {
+position: static;
+border: 3px solid #73AD21;
+}
+Overflow
+The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+
+The overflow property has the following values:
+
+visible - Default. The overflow is not clipped. The content renders outside the element's box
+hidden - The overflow is clipped, and the rest of the content will be invisible
+scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+auto - Similar to scroll, but it adds scrollbars only when necessary
+div {
+width: 200px;
+height: 50px;
+background-color: #eee;
+overflow: visible;
+}
+Flex
+Before the Flexbox Layout module, there were four layout modes:
+
+Block, for sections in a webpage
+Inline, for text
+Table, for two-dimensional table data
+Positioned, for explicit position of an element
+Grid
+To make an HTML element behave as a grid container, you have to set the display property to grid or inline-grid.
+
+Grid containers consist of grid items, placed inside columns and rows.
+
+.grid-container {
+display: grid;
+grid-template-columns: 80px;
+}
+Height-width
+The height and width properties are used to set the height and width of an element.
+
+The height and width can be set to auto (this is default. Means that the browser calculates the height and width), or be specified in length values, like px, cm, etc., or in percent (%) of the containing block.
+
+div {
+height: 200px;
+width: 50%;
+background-color: powderblue;
+}
+Tables
+To specify table borders in CSS, use the border property.
+
+The example below specifies a black border for table, th and td elements:
+
+table, th, td {
+border: 1px solid black;
+}
+Display
+The display property is the most important CSS property for controlling layout.
+
+The display property specifies if/how an element is displayed.
+
+Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.
+
+li {
+display: inline;
+}
+Icons
+How To Add Icons
+The simplest way to add an icon to your HTML page, is with an icon library, such as Font Awesome
+
+"Add the name of the specified icon class to any inline HTML element.
+
+All the icons in the icon libraries below, are scalable vectors that can be customized with CSS (size, color, shadow, etc.)
