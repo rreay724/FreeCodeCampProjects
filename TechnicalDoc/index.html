@@ -6,12 +6,132 @@
     <link rel="stylesheet" href="/style.css" />
     <title>Technical Documentation</title>
   </head>
+
   <body>
     <div class="navbar">
-      <a class="nav-link" ref="#about">About</a>
+      <a class="nav-link" href="#about">About</a>
       <a class="nav-link" href="#services">Services</a>
       <a class="nav-link" href="#clients">Clients</a>
       <a class="nav-link" href="#contact">Contact</a>
+    </div>
+    <div class="main">
+      <h2>Introduction</h2>
+      <h3>What is CSS?</h3>
+      <ul>
+        <li>CSS stands for Cascading Style Sheets.</li>
+        <li>
+          CSS describes how HTML elements are to be displayed on screen, paper,
+          or in other media.
+        </li>
+        <li>
+          CSS saves a lot of work. It can control the layout of multiple web
+          pages all at once.
+        </li>
+        <li>External stylesheets are stored in CSS files.</li>
+      </ul>
+      <h3>Why use CSS?</h3>
+      <p>
+        CSS is used to define styles for your web pages, including the design,
+        layout and variations in display for different devices and screen sizes.
+      </p>
+      <h2>Syntax</h2>
+      <p>
+        Each declaration includes a CSS property name and a value, separated by
+        a colon.
+      </p>
+      <p>
+        The declaration block contains one or more declarations separated by
+        semicolons.
+      </p>
+      <p>
+        A CSS declaration always ends with a semicolon, and declaration blocks
+        are surrounded by curly braces.
+      </p>
+      <p>
+        In the following example all p elements will be center-aligned, with a
+        red text color:
+      </p>
+      <div class="code-snippet">
+        <code>
+          p { <br />
+          text-align: center;<br />
+          color: red;<br />
+          } <br />
+        </code>
+      </div>
+      <h2>Borders</h2>
+      <p>
+        The border-style property specifies what kind of border to display.
+      </p>
+      <p>The following values are allowed:</p>
+      <ul>
+        <li>dotted - Defines a dotted border</li>
+        <li>dashed - Defines a dashed border</li>
+        <li>solid - Defines a solid border</li>
+        <li>double - Defines a double border</li>
+      </ul>
+      <h2>Margin</h2>
+      <p>
+        The CSS margin properties are used to create space around elements,
+        outside of any defined borders.
+      </p>
+      <p>
+        With CSS, you have full control over the margins. There are properties
+        for setting the margin for each side of an element (top, right, bottom,
+        and left).
+      </p>
+      <h3>Margin Properties:</h3>
+      <p>
+        CSS has properties for specifying the margin for each side of an
+        element:
+      </p>
+      <ul>
+        <li>padding-top</li>
+        <li>padding-right</li>
+        <li>padding-bottom</li>
+        <li>padding-left</li>
+      </ul>
+      <div class="code-snippet">
+        <code>
+          p {<br />
+          margin-top: 100px; <br />
+          margin-bottom: 100px; <br />
+          margin-right: 150px; <br />
+          margin-left: 80px; <br />
+          } <br />
+        </code>
+      </div>
+      <h2>Padding</h2>
+      <p>
+        The CSS padding properties are used to generate space around an
+        element's content, inside of any defined borders.
+      </p>
+      <p>
+        With CSS, you have full control over the padding. There are properties
+        for setting the padding for each side of an element (top, right, bottom,
+        and left).
+      </p>
+      <h3>Padding properties:</h3>
+      <p>
+        CSS has properties for specifying the padding for each side of an
+        element:
+      </p>
+      <ul>
+        <li>padding-top</li>
+        <li>padding-right</li>
+        <li>padding-bottom</li>
+        <li>padding-left</li>
+      </ul>
+      <div class="code-snippet">
+        <code>
+          div {<br />
+          padding-top: 50px; <br />
+          padding-right: 30px; <br />
+          padding-bottom: 50px; <br />
+          padding-left: 80px; <br />
+          } <br />
+        </code>
+      </div>
     </div>
   </body>
 </html>
