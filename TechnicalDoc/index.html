@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Technical Documentation</title>
   </head>
 
   <body>
     <div class="navbar">
-      <a class="nav-link" href="#about">About</a>
-      <a class="nav-link" href="#services">Services</a>
-      <a class="nav-link" href="#clients">Clients</a>
-      <a class="nav-link" href="#contact">Contact</a>
+      <a class="nav-link" href="#intro">Introduction</a>
+      <a class="nav-link" href="#syntax">Syntax</a>
+      <a class="nav-link" href="#borders">Borders</a>
+      <a class="nav-link" href="#margin">Margin</a>
+      <a class="nav-link" href="#padding">Padding</a>
     </div>
     <div class="main">
-      <h2>Introduction</h2>
+      <h2 id="intro">Introduction</h2>
       <h3>What is CSS?</h3>
       <ul>
         <li>CSS stands for Cascading Style Sheets.</li>
@@ -34,7 +39,7 @@
         CSS is used to define styles for your web pages, including the design,
         layout and variations in display for different devices and screen sizes.
       </p>
-      <h2>Syntax</h2>
+      <h2 id="syntax">Syntax</h2>
       <p>
         Each declaration includes a CSS property name and a value, separated by
         a colon.
@@ -59,7 +64,7 @@
           } <br />
         </code>
       </div>
-      <h2>Borders</h2>
+      <h2 id="borders">Borders</h2>
       <p>
         The border-style property specifies what kind of border to display.
       </p>
@@ -70,7 +75,7 @@
         <li>solid - Defines a solid border</li>
         <li>double - Defines a double border</li>
       </ul>
-      <h2>Margin</h2>
+      <h2 id="margin">Margin</h2>
       <p>
         The CSS margin properties are used to create space around elements,
         outside of any defined borders.
@@ -101,7 +106,7 @@
           } <br />
         </code>
       </div>
-      <h2>Padding</h2>
+      <h2 id="padding">Padding</h2>
       <p>
         The CSS padding properties are used to generate space around an
         element's content, inside of any defined borders.
