@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #303030;
 }
 .main {
@@ -7,10 +7,13 @@ body {
   font-size: 20px; /* Increased text to enable scrolling */
   padding: 10px 20px;
   color: white;
-  font-family: "Ubuntu", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
 }
 h2 {
-  font-family: "Ubuntu", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 32px;
 }
@@ -61,9 +64,9 @@ li {
 .code-snippet {
   border: 1px solid black;
   width: 50%;
-  margin-left: 50px;
+  margin-left: 40px;
   padding: 20px;
-  background-color: black;
+  background-color: #0d0208;
   color: #00ff41;
 }
 
