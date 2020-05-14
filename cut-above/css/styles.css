@@ -353,18 +353,18 @@ textarea {
   margin-top: 0;
 }
 
-.feature {
+.services {
   margin: 50px auto 0;
   max-width: 400px;
 }
 
 @media (min-width: 992px) {
-  .feature {
+  .services {
     margin: 20px auto 0;
   }
 }
 
-.feature p {
+.services p {
   margin-bottom: 0;
 }
 
@@ -523,3 +523,5 @@ img::-moz-selection {
   color: #fff;
   background: 0 0;
 }
+
+/* Carousel */
