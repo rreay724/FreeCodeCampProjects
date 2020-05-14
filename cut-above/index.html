@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="./css/animate.min.css" />
     <link rel="stylesheet" href="./css/ionicons.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+    />
   </head>
   <body>
     <div id="home">
@@ -37,7 +41,7 @@
                 <a class="page-scroll" href="#one">Intro</a>
               </li>
               <li>
-                <a class="page-scroll" href="#two">Services</a>
+                <a class="page-scroll" href="#two">Highlights</a>
               </li>
               <li>
                 <a class="page-scroll" href="#three">Gallery</a>
@@ -62,14 +66,33 @@
     </header>
     <section class="bg-primary" id="one">
       <div class="container">
-        <div class="row">
-          <div
-            class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center"
-          >
-            <h2 class="margin-top-0 text-primary">
-              Services
-            </h2>
-          </div>
+        <div class="carousel">
+          <div class="carousel-prev"></div>
+          <div class="carousel-next"></div>
+          <ul class="carousel-pagination">
+            <li class="carousel-bullet"></li>
+            <li class="carousel-bullet"></li>
+            <li class="carousel-bullet"></li>
+            <li class="carousel-bullet"></li>
+            <li class="carousel-bullet"></li>
+          </ul>
+          <ul class="carousel-container">
+            <li class="carousel-item">
+              <div class="item-1"></div>
+            </li>
+            <li class="carousel-item">
+              <div class="item-2"></div>
+            </li>
+            <li class="carousel-item">
+              <div class="item-3"></div>
+            </li>
+            <li class="carousel-item">
+              <div class="item-4"></div>
+            </li>
+            <li class="carousel-item">
+              <div class="item-5"></div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -570,5 +593,6 @@
     <script src="./js/jquery.easing.min.js"></script>
     <script src="./js/wow.js"></script>
     <script src="./js/scripts.js"></script>
+    <script src="./js/carousel.js"></script>
   </body>
 </html>
