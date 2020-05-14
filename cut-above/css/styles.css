@@ -58,6 +58,24 @@ p {
   letter-spacing: 1.6px;
 }
 
+.team-title {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  font-size: 48px;
+}
+
+#cut-above {
+  text-align: right;
+  margin: 0px auto 0px auto;
+  color: white;
+  padding: 8px 20px 0 0;
+  font-family: "Lobster", cursive;
+  /* font-family: "Oleo Script", cursive; */
+  font-size: 40px;
+}
+
 .icon-lg {
   font-size: 50px;
   line-height: 18px;
@@ -261,21 +279,6 @@ header .header-content .inner p {
   font-size: 16px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
-}
-
-#video-background {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 1;
-}
-
-#video-background.collapsing {
-  display: none;
 }
 
 footer {
@@ -527,20 +530,6 @@ img::-moz-selection {
 /* Carousel */
 /* Page */
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-  background-color: #e1f0fa;
-}
-
 h1 {
   color: #555;
   text-align: center;
@@ -550,7 +539,6 @@ h1 {
 .container {
   width: 70%;
   margin: 0 auto;
-  border: 2px solid #bbb;
 }
 
 .carousel-item > div {
